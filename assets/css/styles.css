@@ -211,7 +211,7 @@ a {
     cursor: pointer;
 }
 
-.watch-video__icon-boder {
+.watch-video__icon-border {
     min-width: 60px;
     height: 60px;
     border: 4px solid var(--Primary-color-black);
@@ -225,7 +225,7 @@ a {
     transition: 0.3s;
 }
 
-.watch-video:hover .watch-video__icon-boder {
+.watch-video:hover .watch-video__icon-border {
     transform: rotate(315deg);
 }
 
@@ -301,4 +301,56 @@ a {
 
 .hero__deco:nth-of-type(2) {
     transform: rotate(180deg);
+}
+
+/* =========================================Brand=============================================== */
+.brand {
+    margin: 42px 0;
+}
+
+.brand__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 76px 121px;
+    border-radius: 100.5px;
+    background: var(--Secondary-color-light-green);
+}
+
+.brand__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.brand__logo-text {
+    color: var(--Primary-color-black-green);
+}
+
+.brand__item:nth-child(1) .brand__logo-text {
+    font-size: 3.1rem;
+    font-weight: 500;
+}
+
+.brand__item:nth-child(2) .brand__logo-text {
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.brand__item:nth-child(3) .brand__logo-text {
+    color: #163c35;
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+
+.brand__item:nth-child(4) .brand__logo-text {
+    font-family: Sonsie One;
+    font-size: 2.3rem;
+}
+
+.brand__item:nth-child(5) .brand__logo-text {
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 1.995px;
 }
