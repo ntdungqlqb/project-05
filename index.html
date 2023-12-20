@@ -81,6 +81,12 @@
             content="./assets/favicon/ms-icon-144x144.png"
         />
         <meta name="theme-color" content="#ffffff" />
+        <!-- Icon -->
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
         <!-- Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -93,6 +99,129 @@
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
     <body>
-        Hello
+        <header class="header header--sticky">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#">
+                        <img
+                            src="./assets/img/logo.svg"
+                            alt="MODULARS"
+                            class="logo"
+                        />
+                    </a>
+                    <div class="header-right">
+                        <nav class="navbar">
+                            <ul class="navbar__list">
+                                <li>
+                                    <a
+                                        href="#!"
+                                        class="navbar__item navbar__item--active"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#!" class="navbar__item">About</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="navbar__item">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="navbar__item"
+                                        >Contact</a
+                                    >
+                                </li>
+                            </ul>
+                        </nav>
+                        <a href="#!" class="btn header__action-signup"
+                            >Sign Up</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <section class="hero__content">
+                            <h1 class="hero__heading">
+                                We’re a creative design agency.
+                            </h1>
+                            <p class="hero__desc">
+                                A brilliant, modular agency template for
+                                startup’s build yours toady.
+                            </p>
+                            <div class="hero__cta-group">
+                                <a href="" class="btn">Get in touch</a>
+                                <button class="watch-video">
+                                    <div class="watch-video__icon-boder">
+                                        <div class="watch-video__icon">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                height="12"
+                                                width="8"
+                                                fill="currentColor"
+                                                viewBox="0 0 384 512"
+                                            >
+                                                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                                                <path
+                                                    d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+                                                />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <span class="watch-video__desc"
+                                        >Watch Video</span
+                                    >
+                                </button>
+                            </div>
+                        </section>
+                        <div class="hero__media">
+                            <figure class="hero__image">
+                                <img
+                                    src="./assets/img/hero-01.jpg"
+                                    alt=""
+                                    class="hero__img"
+                                />
+                                <img
+                                    src="./assets/img/hero-02.jpg"
+                                    alt=""
+                                    class="hero__img"
+                                />
+                                <img
+                                    src="./assets/img/hero-03.jpg"
+                                    alt=""
+                                    class="hero__img"
+                                />
+                            </figure>
+                            <div class="hero__deco">
+                                <img
+                                    src="./assets/img/hero_deco-02.svg"
+                                    alt=""
+                                    class="hero__deco-img"
+                                />
+                                <img
+                                    src="./assets/img/hero_deco-01.svg"
+                                    alt=""
+                                    class="hero__deco-img"
+                                />
+                            </div>
+                            <div class="hero__deco">
+                                <img
+                                    src="./assets/img/hero_deco-02.svg"
+                                    alt=""
+                                    class="hero__deco-img"
+                                />
+                                <img
+                                    src="./assets/img/hero_deco-01.svg"
+                                    alt=""
+                                    class="hero__deco-img"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
