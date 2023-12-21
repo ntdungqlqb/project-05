@@ -6,6 +6,7 @@
     --Primary-color-black-green: #143c3c;
     --Secondary-color-light-green: #e2eddf;
     --Primary-color-black: #152427;
+    --Secondary-color-gray: #6a8383;
     --text-color-black-gray: #575d5e;
     --text-color-white: #fff;
     --text-color-light-gray: #7d8188;
@@ -799,4 +800,120 @@ a {
 
 .process__step-more:hover {
     color: var(--text-color-light-gray);
+}
+
+/* =========================================Process=============================================== */
+.projects {
+    margin-top: 68px;
+    padding: 116px 0 63px;
+    background: var(--Primary-color-black-green);
+}
+
+.projects__inner {
+    position: relative;
+}
+
+.projects__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects__heading {
+    color: #e7f9f9;
+    width: 457px;
+}
+
+.projects__heading::after {
+    background: var(--Secondary-color-light-green);
+    bottom: 38px;
+}
+
+.projects__top-right {
+    padding-top: 11px;
+    padding-left: 11px;
+    width: 51%;
+    font-family: Public Sans;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 155.556%;
+}
+
+.projects__desc {
+    color: var(--Secondary-color-gray);
+    font-family: Public Sans;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 155.556%;
+}
+
+.watch-projects {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.watch-projects__text {
+    color: #fff;
+    font-family: Public Sans;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+
+.watch-projects__btn {
+    width: 40px;
+    height: 40px;
+    color: #80a07b;
+    background: transparent;
+}
+
+.watch-projects__btn:hover {
+    color: var(--Primary-color-black-green);
+    background: #e7f9f9;
+}
+
+.projects__video-block {
+    position: relative;
+    margin-top: 65px;
+    height: 544px;
+    border-radius: 22px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects__video-poster {
+    width: 100%;
+    object-fit: cover;
+}
+
+.play-btn {
+    position: absolute;
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    color: #fff;
+    background: rgba(26, 26, 26, 0.8);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-btn:hover {
+    background: rgba(26, 26, 26, 1);
+}
+
+.projects__deco {
+    transform: scaleY(-1) rotate(100deg);
+    top: 9%;
+    right: -12%;
+}
+
+.projects__deco .deco-img:nth-child(1) {
+    position: absolute;
+    top: -30px;
+    left: 306px;
 }
