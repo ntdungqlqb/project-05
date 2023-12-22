@@ -1086,3 +1086,127 @@ a {
     font-weight: 500;
     line-height: 120%;
 }
+
+/* =========================================Footer=============================================== */
+.footer {
+    margin-top: 32px;
+    padding: 72px 0 50px;
+    background: var(--Primary-color-black-green);
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid
+        linear-gradient(
+            90deg,
+            #143c3c 2.28%,
+            #295a5a 55.65%,
+            rgba(38, 82, 82, 0) 102.06%
+        );
+}
+
+.footer-left {
+    width: 40%;
+}
+
+.footer__title {
+    color: var(--text-color-white);
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+.footer-form {
+    width: 354px;
+    height: 79px;
+    margin-top: 25px;
+    min-width: 354px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--Secondary-color-gray);
+}
+
+.footer-form__input {
+    height: 60px;
+    background: transparent;
+    border: none;
+    color: var(--Secondary-color-gray);
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 100%;
+    outline: none;
+    border-radius: 5px;
+}
+
+.footer-form-btn {
+    margin-top: 15px;
+    transform: rotate(180deg);
+    width: 50px;
+    height: 50px;
+    color: #c4c4c4;
+    background: transparent;
+}
+
+.footer-form-btn:hover {
+    color: var(--Primary-color-black-green);
+    background: #e7f9f9;
+}
+
+.footer-social {
+    margin-top: 47px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.footer-social-btn {
+    width: 52px;
+    height: 52px;
+    color: #fff;
+    border: 1px solid #265252;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social-btn:hover {
+    background: #a75325;
+    border-color: #a75325;
+}
+
+.footer-right {
+    font-family: Public Sans;
+    padding: 22px 19px 0 190px;
+    width: 60%;
+    display: flex;
+    gap: 50px;
+}
+
+.footer__heading {
+    margin-bottom: 15px;
+    color: var(--text-color-white);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 155.556%;
+}
+
+.footer__link {
+    color: var(--Secondary-color-gray);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 225%;
+}
+
+.footer-line {
+    margin-top: 45px;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        #143c3c 2.28%,
+        #295a5a 55.65%,
+        rgba(38, 82, 82, 0) 102.06%
+    );
+}
