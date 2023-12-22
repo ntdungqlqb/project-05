@@ -431,6 +431,7 @@ a {
     border-radius: 20px;
     overflow: hidden;
     background: #fff;
+    cursor: pointer;
 }
 .services__item:hover {
     box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
@@ -837,7 +838,8 @@ a {
     font-family: Public Sans;
     font-size: 1.8rem;
     font-weight: 500;
-    line-height: 28px; /* 155.556% */
+    line-height: 155.556%;
+    cursor: pointer;
 }
 
 .watch-projects__btn {
