@@ -241,7 +241,7 @@ a {
 
 .navbar__item--active::before {
     position: absolute;
-    bottom: -16px;
+    bottom: -18px;
     left: 19px;
     content: "";
     display: inline-block;
